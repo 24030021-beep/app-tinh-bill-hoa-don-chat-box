@@ -408,17 +408,3 @@ if st.button(
         mime="application/pdf",
         use_container_width=True
     )
-
-Cài thư viện
-
-Mở Terminal trong VS Code rồi chạy:
-
-pip install streamlit reportlab
-
-Sau đó:
-
-streamlit run app.py
-
-Luồng app sẽ là
-
-Chọn trà sữa → số lượng → topping → đường → đá → hiển thị bill → tổng tiền → THANH TOÁN → XUẤT HÓA ĐƠN PDF
